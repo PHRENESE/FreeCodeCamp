@@ -1,2 +1,2 @@
 # FreeCodeCamp
-My solutions for FCC Bonfires
+My solutions for FCC Challenges
