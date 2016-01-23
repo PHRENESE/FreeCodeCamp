@@ -2,7 +2,7 @@ http://www.freecodecamp.com/challenges/chunky-monkey
 
 Write a function that splits an array (first argument) into groups the length of size (second argument) and returns them as a multidimensional array.
 
-Bunch of variations, I was tryong to make the increment in size the most readable.
+Bunch of variations, I was trying to make the size increment the most readable.
 
 ```javascript
 function chunk(arr, size) {
