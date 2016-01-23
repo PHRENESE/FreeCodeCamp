@@ -10,13 +10,13 @@ If the num is less than or equal to 3, then the length of the three dots is not 
 Low brow literal solution:
 ```javascript
 function truncate(str, num) {
-  if(num <= 3){
+  if (num <= 3) {
     return str.slice(0,num) + "...";
   }
-   if(str.length > num){
+  if (str.length > num) {
     return str.slice(0,num-3) + "...";
   }
-   if(num >= str.length){
+  if (num >= str.length) {
     return str;
   }
 }
@@ -32,7 +32,7 @@ function truncate(str, num) {
     i=3;
   }
 
-  if (str.length> num){
+  if (str.length> num) {
     str= str.slice(0,num-i)+"...";}
   console.log(str);
 } 
