@@ -7,7 +7,7 @@ function palindrome(str) {
   str = str.toLowerCase().replace(/\W|_/g, '');
   var rev = str.split("").reverse().join("");
   
-  if (str != rev){
+  if (str !== rev){
     return false;
   } else {
     return true;
