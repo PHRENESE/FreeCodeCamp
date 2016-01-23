@@ -4,7 +4,7 @@ Return the lowest index at which a value (second argument) should be inserted in
 
 ```javascript
 function where(arr, num) {
-  function order(a, b){
+  function order(a, b) {
     return a - b;
   }
   
@@ -14,10 +14,10 @@ function where(arr, num) {
     return ordered.length;
   }
   
-  for (i=0; i<ordered.length; i++){
-    if(ordered[i] === num){
+  for (i=0; i<ordered.length; i++) {
+    if (ordered[i] === num) {
       return ordered.indexOf(ordered[i]);
-    } else if (ordered[i]<num && ordered[i+1]>num) {
+    } else if (ordered[i] < num && ordered[i+1] > num) {
       return ordered.indexOf(ordered[i+1]);
     }
   }
